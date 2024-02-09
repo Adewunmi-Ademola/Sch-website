@@ -7,7 +7,9 @@
 
 body{
 min-height: 100vh;
+width: 100%;
 margin: 0;
+overflow-x: hidden;
 padding: 0;
 font-family: sans-serif;
 }
@@ -201,7 +203,7 @@ html{
     }
 
     .overlay {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px; 
     }
 }
 /*--------------------------------------------------------------------*/
@@ -309,7 +311,7 @@ img {
 
 /*----------------------------------------------------------------------*/
 
-/* Style for the hexagon container */
+
 .hex-container {
     display: flex;
     justify-content: space-between;
@@ -355,7 +357,7 @@ img {
 
 
 .small-text {
-    font-size: 12px; /* Adjust the size as needed */
+    font-size: 12px; 
     line-height: 1.5;
   }
 
@@ -448,7 +450,7 @@ img {
             justify-content: space-around;
             align-items: center;
             padding: 20px;
-            color: #fff; /* Text color for blend effect */
+            color: #fff; 
         }
 
         /* Styling for individual items */
@@ -773,7 +775,7 @@ footer {
 }
 
 .top-bar {
-    background-color: white; /* Set your desired color */
+    background-color: white; 
 }
 
 .footer-container {
@@ -782,7 +784,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start; 
 }
 
 
